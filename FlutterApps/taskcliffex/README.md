@@ -1,10 +1,15 @@
-# taskcliffex
+# ToDo App
 
-A new Flutter project.
+A basic Todo App Using Flutter
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+It has some features like-
+- can add task accordingly
+- will show total no. of tasks
+- has checkbox, mark check if the task is done
+- can delete the tasks
+
 
 A few resources to get you started if this is your first Flutter project:
 
