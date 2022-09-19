@@ -1,16 +1,42 @@
-# flutter_complete_guide
+# Basic Quiz App in Flutter
 
-A new Flutter project.
+Flutter API is an open-source software development kit for building beautiful UI which is natively compiled. 
+Currently, it is available is a stable version for IOS and Android OS.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Four multiple-choice questions ( more questions can be added )
+- Four selectable options for each question in the form of buttons except the last one.
+- The score will be calculated based on the option selected for each question (Internally).
+- And based on the final score a remark will be shown at the end of the quiz and restart button.
+- There are two screens in the app home (where questions will be shown) and the result screen ( where remark will be shown).
+- The whole app will be separated into five different modules namely main.dart, question.dart, answer.dart,quiz.dart and result.dart.
+- It also consist of previous and next button (toggle between questions)
+- Cross platform
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  flutter run
+```
+
+
+## Uses
+
+Making this app will give you a good revision of flutter and dart basics. As we are covering a lot of concepts such as:
+
+- Showing Widgets on the screen.
+- Recycling Widgets.
+- Changing Screens.
+- Internal Logic.
+## Documentation
+
+[Dart](https://dart.dev/guides),
+[Flutter](https://docs.flutter.dev/)
+
+
